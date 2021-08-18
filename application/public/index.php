@@ -1,3 +1,2 @@
 <?php
-echo 'generic application';
-?>
+phpinfo();
