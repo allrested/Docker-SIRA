@@ -31,7 +31,7 @@ services:
     image: mysql:5.7
     restart: always
     volumes:
-      - wordpress_db:/var/lib/mysql
+      - data_db:/var/lib/mysql
     environment:
       MYSQL_DATABASE: absen
       MYSQL_PASSWORD: password
