@@ -34,9 +34,8 @@ services:
       - data_db:/var/lib/mysql
     environment:
       MYSQL_DATABASE: absen
-      MYSQL_PASSWORD: password
-      MYSQL_ROOT_PASSWORD: password
-
+      MYSQL_PASSWORD: j45m1tDB
+      MYSQL_ROOT_PASSWORD: j45m1tDB
 # Volumes
 volumes:
   data_db:
